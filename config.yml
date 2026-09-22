@@ -1,0 +1,12 @@
+download_dir: data
+log_dir: logs
+always_download_meta: true
+log_level: INFO
+start_date: "2025-08-01"
+notify_email: "your_email@example.com"
+db_log_enabled: true     # enable/disable DB logging
+db_log_batch_size: 20    # number of ERROR+ logs to batch before commit
+
+api:
+  list_url: "https://api3.sgx.com/infofeed/Apps?A=COW_Tickdownload_Content&B=TimeSalesData&C_T=20"
+  base_url: "https://links.sgx.com/1.0.0/derivatives-historical"
